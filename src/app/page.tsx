@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import VideoGallery from "@/components/VideoGallery";
 import ImageGallery from "@/components/ImageGallery";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import FAQ from "@/components/FAQ";
 import ContactSection from "@/components/ContactSection";
 
 export default function HomePage() {
@@ -28,7 +29,10 @@ export default function HomePage() {
       {/* 6. Why Choose Us Section */}
       <WhyChooseUs />
 
-      {/* 7. Contact Us, Enquiry Form & Google Maps Section */}
+      {/* 7. Frequently Asked Questions with FAQPage Schema */}
+      <FAQ />
+
+      {/* 8. Contact Us, Enquiry Form & Google Maps Section */}
       <ContactSection />
     </>
   );

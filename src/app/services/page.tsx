@@ -4,6 +4,7 @@ import Image from "next/image";
 import { MessageCircle, Phone, CheckCircle2, ShieldCheck } from "lucide-react";
 import { SERVICES_DATA } from "@/data/services";
 import { BUSINESS_CONFIG } from "@/data/business";
+import FAQ from "@/components/FAQ";
 import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = {
@@ -135,6 +136,9 @@ export default function ServicesPage() {
           })}
         </div>
       </section>
+
+      {/* FAQ Section with FAQPage Schema */}
+      <FAQ />
 
       {/* Enquiry Form */}
       <ContactSection />

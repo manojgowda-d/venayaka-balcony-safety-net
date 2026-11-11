@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { MapPin, Navigation } from "lucide-react";
+import { MapPin, Navigation, ExternalLink } from "lucide-react";
 import { BUSINESS_CONFIG } from "@/data/business";
 
 export default function GoogleMap() {
@@ -22,32 +22,45 @@ export default function GoogleMap() {
           </p>
         </div>
 
-        {/* Action Button opening the exact Google Maps URL */}
+        {/* Action Buttons: Get Directions & View Map */}
         <div className="flex items-center gap-2.5">
           <a
             href={BUSINESS_CONFIG.googleMapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm bg-emerald-600 hover:bg-emerald-500 text-white transition-colors shadow-sm"
+            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 hover:bg-emerald-500 text-white transition-colors shadow-sm"
           >
             <Navigation className="w-4 h-4" />
             <span>Get Directions</span>
           </a>
+          <a
+            href={BUSINESS_CONFIG.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-colors"
+          >
+            <ExternalLink className="w-3.5 h-3.5" />
+            <span>View Map</span>
+          </a>
         </div>
       </div>
 
-      {/* Embedded Map Area (Clipped top offset to remove Google's 'Open in Maps' overlay) */}
+      {/* Embedded Map Area */}
       <div className="relative w-full h-80 sm:h-96 bg-slate-100 overflow-hidden">
-        <div className="absolute inset-x-0 -top-12 h-[calc(100%+48px)]">
-          <iframe
-            src="https://maps.google.com/maps?q=Saraswathipuram%2C%20KG%20Koppal%2C%20Mysuru%2C%20Karnataka%20570005&t=&z=14&ie=UTF8&iwloc=&output=embed"
-            title="Venayaka Balcony Safety Net Service Location in Mysore"
-            className="w-full h-full border-0"
-            loading="lazy"
-            allowFullScreen
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+        {/* Subtle Top-Left Location Chip that replaces any embed watermark */}
+        <div className="absolute top-3 left-3 z-10 bg-slate-900/90 backdrop-blur-md text-white text-xs font-semibold px-3 py-1.5 rounded-lg shadow-md flex items-center gap-1.5 border border-slate-700 pointer-events-none">
+          <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+          <span>Mysore Service Area • 570005</span>
         </div>
+
+        <iframe
+          src={BUSINESS_CONFIG.googleMapsEmbedUrl}
+          title="Venayaka Balcony Safety Net Service Location in Mysore"
+          className="w-full h-full border-0"
+          loading="lazy"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </div>
 
       {/* Service Localities Quick List */}
