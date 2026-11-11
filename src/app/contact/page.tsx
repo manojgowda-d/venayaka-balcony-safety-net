@@ -105,7 +105,7 @@ export default function ContactPage() {
                 className="mt-5 w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 transition-colors"
               >
                 <Navigation className="w-4 h-4 text-emerald-700" />
-                <span>Google Maps Location</span>
+                <span>Get Directions</span>
               </a>
             </div>
           </div>
