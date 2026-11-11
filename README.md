@@ -69,3 +69,4 @@ npm run start
 3. Click **Add New Project**, select the `venayaka-balcony-safety-net` repository.
 4. Keep the default settings (Next.js preset) and click **Deploy**.
 5. Once deployed, add your custom domain (`www.venayakasafetynet.com`) under **Settings > Domains**.
+
