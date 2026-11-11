@@ -52,3 +52,4 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
     </Link>
   );
 }
+

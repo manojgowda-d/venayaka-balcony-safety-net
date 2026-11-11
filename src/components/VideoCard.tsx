@@ -173,3 +173,4 @@ export default function VideoCard({ video }: VideoCardProps) {
     </div>
   );
 }
+

@@ -105,3 +105,4 @@ export default function VideoGallery({ limit, showAllFilter = true }: VideoGalle
     </section>
   );
 }
+

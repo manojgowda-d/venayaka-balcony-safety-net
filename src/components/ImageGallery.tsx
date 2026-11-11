@@ -166,3 +166,4 @@ export default function ImageGallery({ limit, showAllFilter = true }: ImageGalle
     </section>
   );
 }
+
