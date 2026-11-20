@@ -157,7 +157,7 @@ export default function VideoCard({ video }: VideoCardProps) {
 
         {/* Video Card Footer / Controls helper */}
         <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
-          <span className="text-emerald-700 font-medium">Venayaka Balcony Safety Net</span>
+          <span className="text-emerald-700 font-medium">Vinayaka Balcony Safety Net</span>
           {video.type === "local" && video.isAvailable && !hasError && (
             <button
               onClick={handleFullscreen}
@@ -173,4 +173,5 @@ export default function VideoCard({ video }: VideoCardProps) {
     </div>
   );
 }
+
 

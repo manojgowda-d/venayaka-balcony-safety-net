@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Venayaka Balcony Safety Net Mysore",
-    short_name: "Venayaka Safety Net",
+    name: "Vinayaka Balcony Safety Net Mysore",
+    short_name: "Vinayaka Safety Net",
     description: "Professional balcony safety nets, pigeon nets, and anti-bird nets in Mysore.",
     start_url: "/",
     display: "standalone",
@@ -18,4 +18,5 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
   };
 }
+
 

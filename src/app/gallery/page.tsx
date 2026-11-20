@@ -7,12 +7,12 @@ import ContactSection from "@/components/ContactSection";
 export const metadata: Metadata = {
   title: "Work Gallery | Balcony & Pigeon Net Photos in Mysore",
   description:
-    "View our completed installation photographs and sample netting designs for balconies, windows, terraces, and apartments in Mysore. Venayaka Balcony Safety Net.",
+    "View our completed installation photographs and sample netting designs for balconies, windows, terraces, and apartments in Mysore. Vinayaka Balcony Safety Net.",
   alternates: {
     canonical: "/gallery",
   },
   openGraph: {
-    title: "Work Gallery | Venayaka Balcony Safety Net Mysore",
+    title: "Work Gallery | Vinayaka Balcony Safety Net Mysore",
     description:
       "Explore photographs of safety net installations across apartments in Saraswathipuram, KG Koppal, and Mysore.",
   },
@@ -47,4 +47,5 @@ export default function GalleryPage() {
     </div>
   );
 }
+
 

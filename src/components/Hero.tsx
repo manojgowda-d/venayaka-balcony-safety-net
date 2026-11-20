@@ -23,7 +23,7 @@ export default function Hero() {
 
             {/* Main Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
-              Venayaka Balcony <br className="hidden sm:inline" />
+              Vinayaka Balcony <br className="hidden sm:inline" />
               <span className="text-emerald-800 underline decoration-emerald-400 decoration-wavy decoration-2">
                 Safety Net
               </span>
@@ -159,4 +159,5 @@ export default function Hero() {
     </section>
   );
 }
+
 

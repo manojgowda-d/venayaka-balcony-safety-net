@@ -93,7 +93,7 @@ export default function VideoGallery({ limit, showAllFilter = true }: VideoGalle
             </div>
           </div>
           <a
-            href="https://wa.me/919880364527?text=Hello%20Venayaka%20Balcony%20Safety%20Net%2C%20please%20share%20installation%20video%20samples%20for%20my%20balcony."
+            href="https://wa.me/919880364527?text=Hello%20Vinayaka%20Balcony%20Safety%20Net%2C%20please%20share%20installation%20video%20samples%20for%20my%20balcony."
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-white bg-emerald-800 hover:bg-emerald-900 transition-colors shadow-xs"
@@ -105,4 +105,5 @@ export default function VideoGallery({ limit, showAllFilter = true }: VideoGalle
     </section>
   );
 }
+
 

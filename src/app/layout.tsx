@@ -16,14 +16,14 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS_CONFIG.siteUrl),
   title: {
-    default: "Venayaka Balcony Safety Net | Pigeon Nets & Anti-Bird Nets in Mysore",
-    template: "%s | Venayaka Balcony Safety Net Mysore",
+    default: "Vinayaka Balcony Safety Net | Pigeon Nets & Anti-Bird Nets in Mysore",
+    template: "%s | Vinayaka Balcony Safety Net Mysore",
   },
   description:
-    "Venayaka Balcony Safety Net provides balcony safety nets, pigeon nets, anti-bird nets, terrace safety nets and residential safety net installation services in Mysore, Karnataka. Contact us at 9880364527.",
+    "Vinayaka Balcony Safety Net provides balcony safety nets, pigeon nets, anti-bird nets, terrace safety nets and residential safety net installation services in Mysore, Karnataka. Contact us at 9880364527.",
   keywords: [
-    "Venayaka Balcony Safety Net",
-    "Venayaka Safety Net Mysore",
+    "Vinayaka Balcony Safety Net",
+    "Vinayaka Safety Net Mysore",
     "Pigeon Nets in Mysore",
     "Balcony Safety Nets in Mysore",
     "Anti-Bird Nets in Mysore",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     "Safety Nets in Chamarajapuram",
     "Safety Nets in Lakshmipuram",
   ],
-  authors: [{ name: "Venayaka Balcony Safety Net" }],
-  creator: "Venayaka Balcony Safety Net",
-  publisher: "Venayaka Balcony Safety Net",
+  authors: [{ name: "Vinayaka Balcony Safety Net" }],
+  creator: "Vinayaka Balcony Safety Net",
+  publisher: "Vinayaka Balcony Safety Net",
   formatDetection: {
     telephone: true,
     address: true,
@@ -49,11 +49,11 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Venayaka Balcony Safety Net | Pigeon Nets & Anti-Bird Nets in Mysore",
+    title: "Vinayaka Balcony Safety Net | Pigeon Nets & Anti-Bird Nets in Mysore",
     description:
-      "Venayaka Balcony Safety Net provides balcony safety nets, pigeon nets, anti-bird nets, terrace safety nets and residential safety net installation services in Mysore, Karnataka. Contact us at 9880364527.",
+      "Vinayaka Balcony Safety Net provides balcony safety nets, pigeon nets, anti-bird nets, terrace safety nets and residential safety net installation services in Mysore, Karnataka. Contact us at 9880364527.",
     url: BUSINESS_CONFIG.siteUrl,
-    siteName: "Venayaka Balcony Safety Net",
+    siteName: "Vinayaka Balcony Safety Net",
     locale: "en_IN",
     type: "website",
     images: [
@@ -61,13 +61,13 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
         width: 1200,
         height: 630,
-        alt: "Venayaka Balcony Safety Net Mysore - Professional Netting Installation",
+        alt: "Vinayaka Balcony Safety Net Mysore - Professional Netting Installation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Venayaka Balcony Safety Net | Mysore",
+    title: "Vinayaka Balcony Safety Net | Mysore",
     description:
       "Balcony safety nets, anti-bird nets, and pigeon protection installation in Mysore. Contact: 9880364527.",
     images: [
@@ -106,3 +106,4 @@ export default function RootLayout({
     </html>
   );
 }
+

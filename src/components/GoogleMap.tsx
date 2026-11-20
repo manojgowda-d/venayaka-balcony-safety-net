@@ -15,7 +15,7 @@ export default function GoogleMap() {
             <span>Service Location &amp; Directions</span>
           </div>
           <h4 className="text-lg font-bold text-white">
-            Venayaka Balcony Safety Net
+            Vinayaka Balcony Safety Net
           </h4>
           <p className="text-xs text-slate-300 mt-0.5">
             {BUSINESS_CONFIG.primaryServiceAreasText}
@@ -55,7 +55,7 @@ export default function GoogleMap() {
 
         <iframe
           src={BUSINESS_CONFIG.googleMapsEmbedUrl}
-          title="Venayaka Balcony Safety Net Service Location in Mysore"
+          title="Vinayaka Balcony Safety Net Service Location in Mysore"
           className="w-full h-full border-0"
           loading="lazy"
           allowFullScreen
@@ -83,3 +83,4 @@ export default function GoogleMap() {
     </div>
   );
 }
+

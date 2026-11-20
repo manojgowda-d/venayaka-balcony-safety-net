@@ -113,7 +113,7 @@ export default function Navbar() {
             <a
               href={BUSINESS_CONFIG.phoneLink}
               className="p-2 rounded-lg text-emerald-800 bg-emerald-50"
-              aria-label="Call Venayaka Balcony Safety Net"
+              aria-label="Call Vinayaka Balcony Safety Net"
             >
               <Phone className="w-5 h-5" />
             </a>
@@ -175,4 +175,5 @@ export default function Navbar() {
     </header>
   );
 }
+
 

@@ -7,12 +7,12 @@ import ContactSection from "@/components/ContactSection";
 export const metadata: Metadata = {
   title: "Installation Videos | Watch Netting Work in Mysore",
   description:
-    "Watch real installation videos of pigeon nets, balcony safety nets, anti-bird nets, terrace nets and window nets by Venayaka Balcony Safety Net in Mysore, Karnataka.",
+    "Watch real installation videos of pigeon nets, balcony safety nets, anti-bird nets, terrace nets and window nets by Vinayaka Balcony Safety Net in Mysore, Karnataka.",
   alternates: {
     canonical: "/videos",
   },
   openGraph: {
-    title: "Installation Videos | Venayaka Balcony Safety Net Mysore",
+    title: "Installation Videos | Vinayaka Balcony Safety Net Mysore",
     description:
       "Watch actual on-site installation videos of balcony safety nets and pigeon protection in Mysore.",
   },
@@ -47,4 +47,5 @@ export default function VideosPage() {
     </div>
   );
 }
+
 

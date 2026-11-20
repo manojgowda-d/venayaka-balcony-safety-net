@@ -14,7 +14,7 @@ export default function Services({ limit, showAllLink = false }: ServicesProps) 
   const displayedServices = limit ? SERVICES_DATA.slice(0, limit) : SERVICES_DATA;
 
   const createWhatsAppQuoteUrl = (serviceTitle: string) => {
-    const text = `Hello Venayaka Balcony Safety Net, I would like to get a quotation for ${serviceTitle} in Mysore. Please share details.`;
+    const text = `Hello Vinayaka Balcony Safety Net, I would like to get a quotation for ${serviceTitle} in Mysore. Please share details.`;
     return `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}?text=${encodeURIComponent(text)}`;
   };
 
@@ -49,7 +49,7 @@ export default function Services({ limit, showAllLink = false }: ServicesProps) 
                 <div className="relative h-48 sm:h-52 w-full overflow-hidden bg-slate-100">
                   <Image
                     src={service.image}
-                    alt={`${service.title} in Mysore - Venayaka Balcony Safety Net`}
+                    alt={`${service.title} in Mysore - Vinayaka Balcony Safety Net`}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -116,4 +116,5 @@ export default function Services({ limit, showAllLink = false }: ServicesProps) 
     </section>
   );
 }
+
 

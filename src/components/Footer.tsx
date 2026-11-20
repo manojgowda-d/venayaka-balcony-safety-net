@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-4">
             <Logo variant="light" />
             <p className="text-sm text-slate-400 leading-relaxed pr-4">
-              Venayaka Balcony Safety Net specializes in professional installation of balcony safety nets, anti-bird netting, and pigeon protection for residential apartments and homes across Mysore, Karnataka.
+              Vinayaka Balcony Safety Net specializes in professional installation of balcony safety nets, anti-bird netting, and pigeon protection for residential apartments and homes across Mysore, Karnataka.
             </p>
             <div className="pt-2 flex flex-wrap gap-2.5">
               <a
@@ -167,7 +167,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {currentYear} Venayaka Balcony Safety Net. All rights reserved.</p>
+          <p>© {currentYear} Vinayaka Balcony Safety Net. All rights reserved.</p>
           <p className="text-slate-400">
             Professional Balcony, Pigeon &amp; Anti-Bird Netting in Mysore, Karnataka.
           </p>
@@ -176,4 +176,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 

@@ -7,14 +7,14 @@ import { BUSINESS_CONFIG } from "@/data/business";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export const metadata: Metadata = {
-  title: "About Us | Venayaka Balcony Safety Net Mysore",
+  title: "About Us | Vinayaka Balcony Safety Net Mysore",
   description:
-    "Learn about Venayaka Balcony Safety Net. We provide balcony safety nets, pigeon protection nets, and anti-bird nets across Mysore including Saraswathipuram, KG Koppal, and Chamarajapuram.",
+    "Learn about Vinayaka Balcony Safety Net. We provide balcony safety nets, pigeon protection nets, and anti-bird nets across Mysore including Saraswathipuram, KG Koppal, and Chamarajapuram.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Us | Venayaka Balcony Safety Net Mysore",
+    title: "About Us | Vinayaka Balcony Safety Net Mysore",
     description:
       "Reliable residential safety net installation in Mysore. Pigeon nets, balcony protection, and anti-bird mesh.",
   },
@@ -32,7 +32,7 @@ export default function AboutPage() {
               <span>Mysore Safety Net Specialist</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
-              About Venayaka Balcony Safety Net
+              About Vinayaka Balcony Safety Net
             </h1>
             <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
               Committed to providing safe, clean, and pigeon-free living environments for residential families and apartment communities across Mysore.
@@ -55,7 +55,7 @@ export default function AboutPage() {
               </p>
 
               <p className="text-slate-700 leading-relaxed">
-                At <strong>Venayaka Balcony Safety Net</strong>, we solve this with high-strength, weather-resistant nylon nets that create a firm, unobtrusive barrier. Our nets allow complete sunlight and continuous fresh breeze into your home while keeping pigeons and birds outside.
+                At <strong>Vinayaka Balcony Safety Net</strong>, we solve this with high-strength, weather-resistant nylon nets that create a firm, unobtrusive barrier. Our nets allow complete sunlight and continuous fresh breeze into your home while keeping pigeons and birds outside.
               </p>
 
               <p className="text-slate-700 leading-relaxed">
@@ -120,4 +120,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
 

@@ -1,6 +1,6 @@
-# Venayaka Balcony Safety Net - Official Business Website
+# Vinayaka Balcony Safety Net - Official Business Website
 
-A modern, fast, SEO-optimized business website for **Venayaka Balcony Safety Net** located in Mysore, Karnataka, India. Built with Next.js (App Router), React, TypeScript, and Tailwind CSS.
+A modern, fast, SEO-optimized business website for **Vinayaka Balcony Safety Net** located in Mysore, Karnataka, India. Built with Next.js (App Router), React, TypeScript, and Tailwind CSS.
 
 ---
 
@@ -61,12 +61,13 @@ npm run start
 
 1. Push your code to a GitHub repository:
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/venayaka-balcony-safety-net.git
+   git remote add origin https://github.com/YOUR_USERNAME/vinayaka-balcony-safety-net.git
    git branch -M main
    git push -u origin main
    ```
 2. Go to [https://vercel.com](https://vercel.com) and log in with GitHub.
-3. Click **Add New Project**, select the `venayaka-balcony-safety-net` repository.
+3. Click **Add New Project**, select the `vinayaka-balcony-safety-net` repository.
 4. Keep the default settings (Next.js preset) and click **Deploy**.
-5. Once deployed, add your custom domain (`www.venayakasafetynet.com`) under **Settings > Domains**.
+5. Once deployed, add your custom domain (`www.vinayakasafetynet.com`) under **Settings > Domains**.
+
 

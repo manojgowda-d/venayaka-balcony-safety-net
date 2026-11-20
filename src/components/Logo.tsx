@@ -13,7 +13,7 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
     <Link
       href="/"
       className={`inline-flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded-lg ${className}`}
-      aria-label="Venayaka Balcony Safety Net Homepage"
+      aria-label="Vinayaka Balcony Safety Net Homepage"
     >
       <div className="relative flex items-center justify-center w-10 h-10 md:w-11 md:h-11 rounded-xl bg-gradient-to-br from-emerald-700 via-green-800 to-emerald-950 text-white shadow-md shadow-emerald-950/20 group-hover:scale-105 transition-transform duration-200">
         <svg
@@ -39,7 +39,7 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
             isLight ? "text-white" : "text-emerald-950"
           }`}
         >
-          Venayaka
+          Vinayaka
         </span>
         <span
           className={`text-xs md:text-xs font-semibold tracking-wider uppercase ${
@@ -52,4 +52,5 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
     </Link>
   );
 }
+
 

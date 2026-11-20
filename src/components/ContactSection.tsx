@@ -15,7 +15,7 @@ export default function ContactSection() {
             <span>Direct Local Contact</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Contact Venayaka Balcony Safety Net
+            Contact Vinayaka Balcony Safety Net
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600">
             Get in touch directly with our Mysore installation team for prompt on-site measurement, questions, and safety net quotes.
@@ -105,4 +105,5 @@ export default function ContactSection() {
     </section>
   );
 }
+
 

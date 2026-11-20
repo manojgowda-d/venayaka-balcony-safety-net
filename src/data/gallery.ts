@@ -27,7 +27,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     id: "gal-0",
     title: "Completed Balcony Safety Net Installation",
     category: "Balcony Safety Nets",
-    description: "Actual on-site installation by Venayaka Balcony Safety Net featuring transparent high-tensile netting and anchor fastenings.",
+    description: "Actual on-site installation by Vinayaka Balcony Safety Net featuring transparent high-tensile netting and anchor fastenings.",
     image: "/images/gallery/image1.jpg",
     isSample: false,
     location: "Mysore, Karnataka",
@@ -105,3 +105,4 @@ export const GALLERY_DATA: GalleryItem[] = [
     location: "Gokulam, Mysore",
   },
 ];
+

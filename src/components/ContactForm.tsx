@@ -46,7 +46,7 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     const formattedMessage =
-      `Hello Venayaka Balcony Safety Net,\n\n` +
+      `Hello Vinayaka Balcony Safety Net,\n\n` +
       `I would like to enquire about your services.\n\n` +
       `Name: ${formData.name.trim()}\n` +
       `Phone: ${formData.phone.trim()}\n` +
@@ -189,4 +189,5 @@ export default function ContactForm() {
     </div>
   );
 }
+
 

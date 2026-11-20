@@ -16,7 +16,7 @@ export default function About() {
                 <div className="relative h-80 sm:h-96 w-full bg-slate-100">
                   <Image
                     src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=80"
-                    alt="Safety net installation service in Mysore apartments by Venayaka Balcony Safety Net"
+                    alt="Safety net installation service in Mysore apartments by Vinayaka Balcony Safety Net"
                     fill
                     sizes="(max-width: 768px) 100vw, 500px"
                     className="object-cover"
@@ -57,11 +57,11 @@ export default function About() {
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-              About Venayaka Balcony Safety Net
+              About Vinayaka Balcony Safety Net
             </h2>
 
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
-              Venayaka Balcony Safety Net provides reliable safety net solutions for residential homes, apartments, and commercial spaces in Mysore. Balconies and open windows provide natural light and fresh ventilation, but they can also expose living spaces to pigeons, bird droppings, and safety hazards.
+              Vinayaka Balcony Safety Net provides reliable safety net solutions for residential homes, apartments, and commercial spaces in Mysore. Balconies and open windows provide natural light and fresh ventilation, but they can also expose living spaces to pigeons, bird droppings, and safety hazards.
             </p>
 
             <p className="text-base text-slate-600 leading-relaxed">
@@ -134,4 +134,5 @@ export default function About() {
     </section>
   );
 }
+
 

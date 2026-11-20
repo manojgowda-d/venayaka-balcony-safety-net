@@ -15,7 +15,7 @@ export default function FloatingButtons() {
         href={BUSINESS_CONFIG.whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with Venayaka Balcony Safety Net on WhatsApp"
+        aria-label="Chat with Vinayaka Balcony Safety Net on WhatsApp"
         className="group relative flex items-center justify-center w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white shadow-xl hover:bg-[#20ba59] active:scale-95 transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-green-300"
       >
         <MessageCircle className="w-7 h-7 sm:w-8 sm:h-8 fill-white text-[#25D366]" />
@@ -32,7 +32,7 @@ export default function FloatingButtons() {
       {/* Phone Call Floating Button */}
       <a
         href={BUSINESS_CONFIG.phoneLink}
-        aria-label={`Call Venayaka Balcony Safety Net at ${BUSINESS_CONFIG.phoneFormatted}`}
+        aria-label={`Call Vinayaka Balcony Safety Net at ${BUSINESS_CONFIG.phoneFormatted}`}
         className="group relative flex items-center justify-center w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-emerald-800 text-white shadow-xl hover:bg-emerald-900 active:scale-95 transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-emerald-300"
       >
         <Phone className="w-6 h-6 sm:w-7 sm:h-7 fill-emerald-300 text-emerald-800" />
@@ -45,4 +45,5 @@ export default function FloatingButtons() {
     </div>
   );
 }
+
 

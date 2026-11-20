@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
             <span>Reliable Local Service</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Why Choose Venayaka Balcony Safety Net
+            Why Choose Vinayaka Balcony Safety Net
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600">
             Dedicated safety net installation for homes, apartments, and residential buildings across Mysore.
@@ -76,4 +76,5 @@ export default function WhyChooseUs() {
     </section>
   );
 }
+
 

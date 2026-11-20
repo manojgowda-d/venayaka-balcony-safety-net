@@ -6,14 +6,14 @@ import ContactForm from "@/components/ContactForm";
 import GoogleMap from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Venayaka Balcony Safety Net Mysore",
+  title: "Contact Us | Vinayaka Balcony Safety Net Mysore",
   description:
-    "Contact Venayaka Balcony Safety Net for balcony safety net, pigeon net, and anti-bird net installation in Mysore. Phone & WhatsApp: 9880364527. Google Maps location and directions.",
+    "Contact Vinayaka Balcony Safety Net for balcony safety net, pigeon net, and anti-bird net installation in Mysore. Phone & WhatsApp: 9880364527. Google Maps location and directions.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact Us | Venayaka Balcony Safety Net Mysore",
+    title: "Contact Us | Vinayaka Balcony Safety Net Mysore",
     description:
       "Get in touch for safety net installations in Mysore. Fast quotation via WhatsApp or direct phone call.",
   },
@@ -31,7 +31,7 @@ export default function ContactPage() {
               <span>Direct Customer Reach</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
-              Contact Venayaka Balcony Safety Net
+              Contact Vinayaka Balcony Safety Net
             </h1>
             <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
               We are ready to assist you with on-site measurements, inquiries, and immediate safety net installations anywhere in Mysore.
@@ -124,4 +124,5 @@ export default function ContactPage() {
     </div>
   );
 }
+
 

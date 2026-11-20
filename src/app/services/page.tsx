@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     canonical: "/services",
   },
   openGraph: {
-    title: "Safety Net Services in Mysore | Venayaka Balcony Safety Net",
+    title: "Safety Net Services in Mysore | Vinayaka Balcony Safety Net",
     description:
       "Professional safety netting installation for apartments and homes in Mysore. Get instant WhatsApp quotations.",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function ServicesPage() {
   const createWhatsAppQuoteUrl = (serviceTitle: string) => {
-    const text = `Hello Venayaka Balcony Safety Net, I would like to get a quotation for ${serviceTitle} in Mysore. Please share details.`;
+    const text = `Hello Vinayaka Balcony Safety Net, I would like to get a quotation for ${serviceTitle} in Mysore. Please share details.`;
     return `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}?text=${encodeURIComponent(text)}`;
   };
 
@@ -70,7 +70,7 @@ export default function ServicesPage() {
                     <div className="relative h-64 sm:h-80 w-full rounded-2xl overflow-hidden bg-slate-100 shadow-inner">
                       <Image
                         src={service.image}
-                        alt={`${service.title} installation in Mysore - Venayaka Balcony Safety Net`}
+                        alt={`${service.title} installation in Mysore - Vinayaka Balcony Safety Net`}
                         fill
                         sizes="(max-width: 768px) 100vw, 500px"
                         className="object-cover"
@@ -145,4 +145,5 @@ export default function ServicesPage() {
     </div>
   );
 }
+
 
