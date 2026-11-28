@@ -1,16 +1,28 @@
+
 export const BUSINESS_CONFIG = {
-  name: "Vinayaka Balcony Safety Net",
-  shortName: "Vinayaka Safety Net",
-  tagline: "Reliable Balcony Safety Nets, Anti-Bird Nets & Pigeon Protection Solutions in Mysore",
-  category: "Balcony Safety Nets, Anti-Bird Nets and Pigeon Net Installation",
+  name: "Venayaka Balcony Safety Net",
+  shortName: "Venayaka Safety Net",
+
+  tagline:
+    "Reliable Balcony Safety Nets, Anti-Bird Nets & Pigeon Protection Solutions in Mysuru",
+
+  category:
+    "Balcony Safety Nets, Anti-Bird Nets and Pigeon Net Installation",
+
   description:
-    "Vinayaka Balcony Safety Net provides premium balcony safety nets, pigeon nets, anti-bird nets, terrace safety nets, and residential safety net installation services across Mysore, Karnataka.",
+    "Venayaka Balcony Safety Net provides balcony safety nets, pigeon nets, anti-bird nets, terrace safety nets, and residential safety net installation services across Mysuru, Karnataka.",
+
   phone: "9880364527",
   phoneFormatted: "+91 98803 64527",
   phoneLink: "tel:+919880364527",
+
   whatsappNumber: "9880364527",
   whatsappLink: "https://wa.me/919880364527",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.vinayakasafetynet.com",
+
+  // Your currently deployed Vercel website URL
+  siteUrl:
+    "https://venayaka-balcony-safety-nets-git-main-main-projects2.vercel.app",
+
   serviceAreas: [
     "KG Koppal",
     "Chamarajapuram",
@@ -20,21 +32,24 @@ export const BUSINESS_CONFIG = {
     "Vijayanagar",
     "Jayalakshmipuram",
     "Kuvempunagar",
-    "Mysore City & Surrounding Areas",
+    "Mysuru City & Surrounding Areas",
   ],
+
   primaryServiceAreasText:
-    "KG Koppal, Chamarajapuram, Lakshmipuram, Saraswathipuram, Mysore, Karnataka – 570005",
+    "KG Koppal, Chamarajapuram, Lakshmipuram, Saraswathipuram, Mysuru, Karnataka – 570005",
+
   address: {
-    city: "Mysore",
+    city: "Mysuru",
     state: "Karnataka",
     postalCode: "570005",
     country: "India",
-    addressLocality: "KG Koppal, Chamarajapuram, Lakshmipuram, Saraswathipuram, Mysore",
+    addressLocality:
+      "KG Koppal, Chamarajapuram, Lakshmipuram, Saraswathipuram, Mysuru",
   },
-  googleMapsUrl: "https://maps.app.goo.gl/FG6nCMeT9Bz41QeY8?g_st=aw",
-  // Google Maps embed URL using public search embed for the Mysore location
+
+  googleMapsUrl:
+    "https://maps.app.goo.gl/FG6nCMeT9Bz41QeY8?g_st=aw",
+
   googleMapsEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.1256795861757!2d76.63467667482937!3d12.307222487950942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381d59666b%3A0xb30e843e9e30a5be!2sSaraswathipuram%2C%20Mysuru%2C%20Karnataka%20570009!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
 };
-
-
